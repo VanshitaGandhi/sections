@@ -8,24 +8,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
- div {
-   padding: 1em;
- }
 
- section {
-   padding-top: 2em;
-   padding-bottom: 2em;
- }
+div {
+  padding: 1em;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  vertical-align: middle;
+  text-align: center;
+}
 
 section div {
   display: inline-block;
-  padding: 1em 2em;
   max-width: 25em;
   text-align: left;
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -33,6 +35,11 @@ h2 {
   display: block;
   margin-bottom: 1.5rem;
   margin-top: 0;
+}
+
+.para,
+.img {
+  vertical-align: middle;
 }
 
 p {
